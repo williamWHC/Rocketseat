@@ -1,17 +1,26 @@
 body {
     font-family: 'Open Sans', sans-serif;
-    text-align: center;
-    margin: 0;
+    text-align: end;
+    margin: 0px;
+}
+
+.line {
+    width: 592px;
+    height: 0px;
+    margin: 100px auto 0px;
+    border: 1px solid #ECEFF2;
+    margin-left: 100px;
 }
 
 #hero {
     width: 592px;
-    margin: 0 auto 72px;
+    margin: 0px auto 100px;
+    margin-left: 100px;
+    text-align: right;
 }
 
-#hero img {
-    margin-bottom: 72px;
-
+img {
+    margin: 100px;
 }
 
 h1 {
@@ -33,18 +42,8 @@ a {
 p,
 #footer {
     color: #7D7987;
-
-    size: 14px;
+    font-size: 14px;
     line-height: 28px;
-}
-
-.line {
-    width: 568px;
-    height: 0px;
-
-    margin: 0 auto 8px;
-
-    border: 1px solid #ECEFF2;
 }
 
 #footer a+a {
@@ -52,8 +51,7 @@ p,
 }
 
 #balls {
-    position: absolute;
-    bottom: 0px;
+    position: fixed;
+    top: 0px;
     right: 0px;
-
 }
